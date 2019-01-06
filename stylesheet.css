@@ -28,7 +28,7 @@ header h1 {
   padding: 15px;
 }
 
-.top-wrapper {
+.top-wrapper .container {
   background-image: url(pc.jpeg);
   background-size: cover;
 }
@@ -52,11 +52,13 @@ header h1 {
 .logo h2 {
   clear: left;
   text-align: center;
+  color: white;
 }
 
 .abstract {
-  border-top: 1px solid black;
+  border-top: 1px solid white;
   text-align: center;
+  color: white;
 }
 
 .toc-wrapper li {

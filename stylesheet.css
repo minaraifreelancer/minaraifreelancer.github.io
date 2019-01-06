@@ -28,9 +28,14 @@ header h1 {
   padding: 15px;
 }
 
-.top-wrapper .container {
+.top-wrapper {
   background-image: url(pc.jpeg);
-  background-size: cover;
+  background-size: cover;;
+}
+
+.top-container {
+  padding:  10px;
+  color:  white;
 }
 
 .container {
@@ -49,16 +54,18 @@ header h1 {
   border-radius: 5px;
 }
 
+.logo p {
+  margin: 0;
+}
+
 .logo h2 {
   clear: left;
   text-align: center;
-  color: white;
 }
 
 .abstract {
   border-top: 1px solid white;
   text-align: center;
-  color: white;
 }
 
 .toc-wrapper li {
@@ -74,7 +81,6 @@ header h1 {
   background-color: #dced7e;
   margin-top: 0;
   padding: 10px;
-  border-radius: 5px;
 }
 
 .btn {

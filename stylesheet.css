@@ -1,11 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  line-height: 1em;
 }
 
 body {
@@ -16,15 +10,18 @@ header {
   width: 100%;
   text-align: center;
   color: white;
-  background-color: blue;
+  background-color: #2b5f97;
+}
+
+header h1 {
+  margin:  0px;
 }
 
 
 .main {
   max-width: 1170px;
   width: 100%;
-  margin: 0 15px;
-  background-color: grey;
+  margin: 0;
 }
 
 .top-wrapper .toc-wrapper .main-wrapper {
@@ -33,15 +30,18 @@ header {
 
 .container {
   border: 1px solid black;
+  border-radius:  5px;
   padding: 20px 10px;
+  margin:  10px;
 }
 
-.logo p {
+.icon {
   float: left;
-  display: block;
-  height: 10px;
+  display: inline-block;
   background-color: orange;
   color: white;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .logo h2 {
@@ -56,17 +56,36 @@ header {
 
 .toc-wrapper li {
   margin-left: 10px;
+  clear:  left;
 }
 
 .main-wrapper p {
   margin-left: 10px;
 }
 
-.url {
+.chapter {
+  background-color: #dced7e;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.btn {
   display: inline-block;
-  border-radius: 2px;
-  background-color: green;
+  border-radius: 4px;
+  background-color: #97b1cd;
   padding: 5px 10px;
+  box-shadow: 0px 5px #384247;
+  opacity:  1;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
 }
 
 .samurai-url {
@@ -76,5 +95,11 @@ header {
 footer {
   width: 100%;
   color: white;
-  background-color: yellow;
+  background-color: #2b5f97;
+  margin: 0;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
 }

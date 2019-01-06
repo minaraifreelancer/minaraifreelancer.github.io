@@ -28,6 +28,11 @@ header h1 {
   padding: 15px;
 }
 
+.top-wrapper {
+  background-image: url(top.jpeg);
+  background-size: cover;
+}
+
 .container {
   border: 1px solid black;
   border-radius:  5px;

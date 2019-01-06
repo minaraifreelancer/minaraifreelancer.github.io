@@ -1,5 +1,15 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 1em;
+}
+
+body {
+  margin: 0px;
 }
 
 header {
@@ -9,10 +19,11 @@ header {
   background-color: blue;
 }
 
+
 .main {
   max-width: 1170px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 15px;
   background-color: grey;
 }
 
